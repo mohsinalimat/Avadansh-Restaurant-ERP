@@ -1,0 +1,75 @@
+PODS:
+  - Alamofire (4.8.2)
+  - AlamofireImage (3.5.2):
+    - Alamofire (~> 4.8)
+  - Blueprints (0.10.5)
+  - ChameleonFramework/Default (2.1.0)
+  - ChameleonFramework/Swift (2.1.0):
+    - ChameleonFramework/Default
+  - DatePickerDialog (2.0)
+  - DropDown (2.3.13)
+  - IQKeyboardManagerSwift (6.3.0)
+  - Realm (3.15.0):
+    - Realm/Headers (= 3.15.0)
+  - Realm/Headers (3.15.0)
+  - RealmSwift (3.15.0):
+    - Realm (= 3.15.0)
+  - SDWebImage (5.0.2):
+    - SDWebImage/Core (= 5.0.2)
+  - SDWebImage/Core (5.0.2)
+  - SearchTextField (1.2.2)
+  - SVProgressHUD (2.2.5)
+  - SwiftyJSON (5.0.0)
+  - TwicketSegmentedControl (0.1.2)
+
+DEPENDENCIES:
+  - Alamofire
+  - AlamofireImage
+  - Blueprints
+  - ChameleonFramework/Swift
+  - DatePickerDialog
+  - DropDown
+  - IQKeyboardManagerSwift
+  - RealmSwift
+  - SDWebImage
+  - SearchTextField
+  - SVProgressHUD
+  - SwiftyJSON
+  - TwicketSegmentedControl
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Alamofire
+    - AlamofireImage
+    - Blueprints
+    - ChameleonFramework
+    - DatePickerDialog
+    - DropDown
+    - IQKeyboardManagerSwift
+    - Realm
+    - RealmSwift
+    - SDWebImage
+    - SearchTextField
+    - SVProgressHUD
+    - SwiftyJSON
+    - TwicketSegmentedControl
+
+SPEC CHECKSUMS:
+  Alamofire: ae5c501addb7afdbb13687d7f2f722c78734c2d3
+  AlamofireImage: 63cfe3baf1370be6c498149687cf6db3e3b00999
+  Blueprints: 0cd68556432de83fa3937108ee959d0afffd455e
+  ChameleonFramework: d21a3cc247abfe5e37609a283a8238b03575cf64
+  DatePickerDialog: 5e1c24d9fe6506cd45dbc573eed7b0a251b1c09d
+  DropDown: 8a2116376c1981888557f72ec2ffc9a5e0e456ec
+  IQKeyboardManagerSwift: a8228c257614af98743b4cd8584637025f36358f
+  Realm: 9b834e1be6062f544805252c812348872dc5d4ed
+  RealmSwift: 8a41886f8ab6efef9eb8df97de2f2bb911561a79
+  SDWebImage: 6764b5fa0f73c203728052955dbefa2bf1f33282
+  SearchTextField: a0992739d4b05dcbb40fb3a5cc6526bd991bdd23
+  SVProgressHUD: 1428aafac632c1f86f62aa4243ec12008d7a51d6
+  SwiftyJSON: 36413e04c44ee145039d332b4f4e2d3e8d6c4db7
+  TwicketSegmentedControl: 6d7a4cf243657e0ac3f00d06d873a25334c04042
+
+PODFILE CHECKSUM: f4223a368070ed5e480a35dca9422cbbf126ba09
+
+COCOAPODS: 1.7.3

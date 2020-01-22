@@ -1,0 +1,927 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7C5A0B9BDE64477E75622A2C /* Pods_Avadansh.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C5C9C5F1E3DA5932FD94928 /* Pods_Avadansh.framework */; };
+		DB7845E422DDDDA300E66E56 /* FoodCategoryCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB7845E222DDDDA300E66E56 /* FoodCategoryCollectionViewCell.swift */; };
+		DB7845E522DDDDA300E66E56 /* FoodCategoryCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DB7845E322DDDDA300E66E56 /* FoodCategoryCollectionViewCell.xib */; };
+		DB93E3F122DF4F9900CDE941 /* AccountDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB93E3F022DF4F9900CDE941 /* AccountDetailsViewController.swift */; };
+		DB9FC7CC22D890EE00FEDF23 /* OutletsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB9FC7CB22D890EE00FEDF23 /* OutletsViewController.swift */; };
+		DB9FC7CE22D8910900FEDF23 /* Admin.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB9FC7CD22D8910900FEDF23 /* Admin.storyboard */; };
+		DB9FC7D222D895F200FEDF23 /* OutletsListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB9FC7D022D895F200FEDF23 /* OutletsListTableViewCell.swift */; };
+		DB9FC7D322D895F200FEDF23 /* OutletsListTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DB9FC7D122D895F200FEDF23 /* OutletsListTableViewCell.xib */; };
+		DB9FC7D522D8A72C00FEDF23 /* AdminHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB9FC7D422D8A72C00FEDF23 /* AdminHomeViewController.swift */; };
+		DB9FC7DA22D8B94700FEDF23 /* RegisteredCustomersTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB9FC7D822D8B94700FEDF23 /* RegisteredCustomersTableViewCell.swift */; };
+		DB9FC7DB22D8B94700FEDF23 /* RegisteredCustomersTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DB9FC7D922D8B94700FEDF23 /* RegisteredCustomersTableViewCell.xib */; };
+		DB9FC7DD22D8BCDD00FEDF23 /* CustomersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB9FC7DC22D8BCDD00FEDF23 /* CustomersViewController.swift */; };
+		DBB41A7022D7063200499D6A /* PurchaseListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBB41A6E22D7063200499D6A /* PurchaseListTableViewCell.swift */; };
+		DBB41A7122D7063200499D6A /* PurchaseListTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DBB41A6F22D7063200499D6A /* PurchaseListTableViewCell.xib */; };
+		DBB41A7322D70DF200499D6A /* PurchaseListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBB41A7222D70DF200499D6A /* PurchaseListViewController.swift */; };
+		DBB41A7522D716E500499D6A /* OutletHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBB41A7422D716E500499D6A /* OutletHomeViewController.swift */; };
+		DBB41A7722D7387600499D6A /* SalesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBB41A7622D7387600499D6A /* SalesViewController.swift */; };
+		DBB41A7B22D738BD00499D6A /* SalesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBB41A7922D738BD00499D6A /* SalesTableViewCell.swift */; };
+		DBB41A7C22D738BD00499D6A /* SalesTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DBB41A7A22D738BD00499D6A /* SalesTableViewCell.xib */; };
+		DBB41A7E22D7561B00499D6A /* SalesInvoiceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBB41A7D22D7561B00499D6A /* SalesInvoiceViewController.swift */; };
+		DBB41A8022D767C800499D6A /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DBB41A7F22D767C700499D6A /* WebKit.framework */; };
+		DBB41A8422D76A6100499D6A /* InventoryTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBB41A8222D76A6100499D6A /* InventoryTableViewCell.swift */; };
+		DBB41A8522D76A6100499D6A /* InventoryTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DBB41A8322D76A6100499D6A /* InventoryTableViewCell.xib */; };
+		DBB41A8722D76B5700499D6A /* InventoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBB41A8622D76B5700499D6A /* InventoryViewController.swift */; };
+		DBC22CF522D3054200E9C91A /* KitchenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBC22CF422D3054200E9C91A /* KitchenViewController.swift */; };
+		DBC22CF722D305A400E9C91A /* Kitchen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DBC22CF622D305A400E9C91A /* Kitchen.storyboard */; };
+		DBC22CFC22D3276D00E9C91A /* KitchenOrderTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBC22CFA22D3276D00E9C91A /* KitchenOrderTableViewCell.swift */; };
+		DBC22CFD22D3276D00E9C91A /* KitchenOrderTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DBC22CFB22D3276D00E9C91A /* KitchenOrderTableViewCell.xib */; };
+		DBE16BC722D35F7D0038101E /* KitchenOrderDetailsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBE16BC522D35F7D0038101E /* KitchenOrderDetailsTableViewCell.swift */; };
+		DBE16BC822D35F7D0038101E /* KitchenOrderDetailsTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DBE16BC622D35F7D0038101E /* KitchenOrderDetailsTableViewCell.xib */; };
+		DBE16BCA22D3617F0038101E /* KitchenOrderDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBE16BC922D3617F0038101E /* KitchenOrderDetailsViewController.swift */; };
+		DBF0F50122D47D9B002286B9 /* TimerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBF0F4FF22D47D9B002286B9 /* TimerViewController.swift */; };
+		DBF0F50222D47D9B002286B9 /* TimerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DBF0F50022D47D9B002286B9 /* TimerViewController.xib */; };
+		DBF0F50522D60489002286B9 /* Outlet.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DBF0F50422D60489002286B9 /* Outlet.storyboard */; };
+		DBF2527422DC680E00307230 /* CustomerOutletsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBF2527322DC680E00307230 /* CustomerOutletsViewController.swift */; };
+		DBF2527622DC9F8C00307230 /* WholeFoodMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBF2527522DC9F8C00307230 /* WholeFoodMenuViewController.swift */; };
+		DBF9231122E0611600BF9A03 /* AccountInformationTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBF9230F22E0611600BF9A03 /* AccountInformationTableViewCell.swift */; };
+		DBF9231222E0611600BF9A03 /* AccountInformationTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DBF9231022E0611600BF9A03 /* AccountInformationTableViewCell.xib */; };
+		F15980BE22C5F99C003393A2 /* HideKeyboardModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F15980BD22C5F99C003393A2 /* HideKeyboardModel.swift */; };
+		F15DBD1E22C48A7D0078C02A /* HomeMenusCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F15DBD1C22C48A7D0078C02A /* HomeMenusCollectionViewCell.swift */; };
+		F15DBD1F22C48A7D0078C02A /* HomeMenusCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F15DBD1D22C48A7D0078C02A /* HomeMenusCollectionViewCell.xib */; };
+		F15DBD2222C495DB0078C02A /* HomeFoodCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F15DBD2022C495DB0078C02A /* HomeFoodCollectionViewCell.swift */; };
+		F15DBD2322C495DB0078C02A /* HomeFoodCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F15DBD2122C495DB0078C02A /* HomeFoodCollectionViewCell.xib */; };
+		F15DBD2722C4DD140078C02A /* CollectionTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F15DBD2522C4DD140078C02A /* CollectionTableViewCell.swift */; };
+		F15DBD2822C4DD140078C02A /* CollectionTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F15DBD2622C4DD140078C02A /* CollectionTableViewCell.xib */; };
+		F178E7C022C79679008CD4AC /* Last10OrdersTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F178E7BE22C79679008CD4AC /* Last10OrdersTableViewCell.swift */; };
+		F178E7C122C79679008CD4AC /* Last10OrdersTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F178E7BF22C79679008CD4AC /* Last10OrdersTableViewCell.xib */; };
+		F178E7C322C79923008CD4AC /* Last10OrdersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F178E7C222C79923008CD4AC /* Last10OrdersViewController.swift */; };
+		F181AFFE22C1F0C200C47CD0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F181AFFD22C1F0C200C47CD0 /* AppDelegate.swift */; };
+		F181B00022C1F0C200C47CD0 /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F181AFFF22C1F0C200C47CD0 /* LoginController.swift */; };
+		F181B00322C1F0C200C47CD0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F181B00122C1F0C200C47CD0 /* Main.storyboard */; };
+		F181B00822C1F0C600C47CD0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F181B00722C1F0C600C47CD0 /* Assets.xcassets */; };
+		F181B00B22C1F0C600C47CD0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F181B00922C1F0C600C47CD0 /* LaunchScreen.storyboard */; };
+		F181B01322C20C3A00C47CD0 /* StructureModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F181B01222C20C3A00C47CD0 /* StructureModel.swift */; };
+		F181B01822C21E6700C47CD0 /* AlamofireModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F181B01722C21E6700C47CD0 /* AlamofireModel.swift */; };
+		F181B01A22C2208D00C47CD0 /* ProgressHUDModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F181B01922C2208D00C47CD0 /* ProgressHUDModel.swift */; };
+		F181B01C22C245B400C47CD0 /* NavigateToVCModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F181B01B22C245B400C47CD0 /* NavigateToVCModel.swift */; };
+		F181B01E22C256B100C47CD0 /* BaseVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F181B01D22C256B100C47CD0 /* BaseVC.swift */; };
+		F1844D8C22C33E51000A5350 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1844D8B22C33E51000A5350 /* HomeViewController.swift */; };
+		F1844D8E22C34590000A5350 /* SetCornerRadiusModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1844D8D22C34590000A5350 /* SetCornerRadiusModel.swift */; };
+		F1844D9022C3529F000A5350 /* TakeOrdersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1844D8F22C3529F000A5350 /* TakeOrdersViewController.swift */; };
+		F1844D9222C3A1B7000A5350 /* CollectionViewReturnModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1844D9122C3A1B7000A5350 /* CollectionViewReturnModel.swift */; };
+		F198D9CD22CB659A00C543E7 /* ConvertStringToJSONModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F198D9CC22CB659A00C543E7 /* ConvertStringToJSONModel.swift */; };
+		F1BA6FE622C9E06700A70A3A /* CheckoutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1BA6FE422C9E06700A70A3A /* CheckoutViewController.swift */; };
+		F1BA6FE722C9E06700A70A3A /* CheckoutViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F1BA6FE522C9E06700A70A3A /* CheckoutViewController.xib */; };
+		F1BC2E2E22C9F96B005F689D /* Collection2TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1BC2E2C22C9F96B005F689D /* Collection2TableViewCell.swift */; };
+		F1BC2E2F22C9F96B005F689D /* Collection2TableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F1BC2E2D22C9F96B005F689D /* Collection2TableViewCell.xib */; };
+		F1D3CAE322CC87D400AF3189 /* OnHoldOrdersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1D3CAE222CC87D400AF3189 /* OnHoldOrdersViewController.swift */; };
+		F1D3CAE722CC895300AF3189 /* OnHoldOrdersListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1D3CAE522CC895300AF3189 /* OnHoldOrdersListTableViewCell.swift */; };
+		F1D3CAE822CC895300AF3189 /* OnHoldOrdersListTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F1D3CAE622CC895300AF3189 /* OnHoldOrdersListTableViewCell.xib */; };
+		F1E112E522C77EB9003619E9 /* OrderListDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1E112E422C77EB9003619E9 /* OrderListDetailsViewController.swift */; };
+		F1E112E922C78EBA003619E9 /* OrderListDetailsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1E112E722C78EBA003619E9 /* OrderListDetailsTableViewCell.swift */; };
+		F1E112EA22C78EBA003619E9 /* OrderListDetailsTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F1E112E822C78EBA003619E9 /* OrderListDetailsTableViewCell.xib */; };
+		F1FE10BF22C72E930074547B /* OrderOverviewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1FE10BE22C72E930074547B /* OrderOverviewViewController.swift */; };
+		F1FE10C322C7334B0074547B /* OrderOverviewTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1FE10C122C7334B0074547B /* OrderOverviewTableViewCell.swift */; };
+		F1FE10C422C7334B0074547B /* OrderOverviewTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F1FE10C222C7334B0074547B /* OrderOverviewTableViewCell.xib */; };
+		F1FE10C822C766ED0074547B /* OrdersListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1FE10C622C766ED0074547B /* OrdersListTableViewCell.swift */; };
+		F1FE10C922C766ED0074547B /* OrdersListTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F1FE10C722C766ED0074547B /* OrdersListTableViewCell.xib */; };
+		F1FE10CB22C76A890074547B /* OrderListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1FE10CA22C76A890074547B /* OrderListViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3916FE17F968EB1803C11F82 /* Pods-Avadansh.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Avadansh.release.xcconfig"; path = "Target Support Files/Pods-Avadansh/Pods-Avadansh.release.xcconfig"; sourceTree = "<group>"; };
+		9C5C9C5F1E3DA5932FD94928 /* Pods_Avadansh.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Avadansh.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB7845E222DDDDA300E66E56 /* FoodCategoryCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodCategoryCollectionViewCell.swift; sourceTree = "<group>"; };
+		DB7845E322DDDDA300E66E56 /* FoodCategoryCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FoodCategoryCollectionViewCell.xib; sourceTree = "<group>"; };
+		DB93E3F022DF4F9900CDE941 /* AccountDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountDetailsViewController.swift; sourceTree = "<group>"; };
+		DB9FC7CB22D890EE00FEDF23 /* OutletsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OutletsViewController.swift; sourceTree = "<group>"; };
+		DB9FC7CD22D8910900FEDF23 /* Admin.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Admin.storyboard; sourceTree = "<group>"; };
+		DB9FC7D022D895F200FEDF23 /* OutletsListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OutletsListTableViewCell.swift; sourceTree = "<group>"; };
+		DB9FC7D122D895F200FEDF23 /* OutletsListTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = OutletsListTableViewCell.xib; sourceTree = "<group>"; };
+		DB9FC7D422D8A72C00FEDF23 /* AdminHomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdminHomeViewController.swift; sourceTree = "<group>"; };
+		DB9FC7D822D8B94700FEDF23 /* RegisteredCustomersTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisteredCustomersTableViewCell.swift; sourceTree = "<group>"; };
+		DB9FC7D922D8B94700FEDF23 /* RegisteredCustomersTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RegisteredCustomersTableViewCell.xib; sourceTree = "<group>"; };
+		DB9FC7DC22D8BCDD00FEDF23 /* CustomersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomersViewController.swift; sourceTree = "<group>"; };
+		DBB41A6E22D7063200499D6A /* PurchaseListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PurchaseListTableViewCell.swift; sourceTree = "<group>"; };
+		DBB41A6F22D7063200499D6A /* PurchaseListTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PurchaseListTableViewCell.xib; sourceTree = "<group>"; };
+		DBB41A7222D70DF200499D6A /* PurchaseListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PurchaseListViewController.swift; sourceTree = "<group>"; };
+		DBB41A7422D716E500499D6A /* OutletHomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OutletHomeViewController.swift; sourceTree = "<group>"; };
+		DBB41A7622D7387600499D6A /* SalesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SalesViewController.swift; sourceTree = "<group>"; };
+		DBB41A7922D738BD00499D6A /* SalesTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SalesTableViewCell.swift; sourceTree = "<group>"; };
+		DBB41A7A22D738BD00499D6A /* SalesTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SalesTableViewCell.xib; sourceTree = "<group>"; };
+		DBB41A7D22D7561B00499D6A /* SalesInvoiceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SalesInvoiceViewController.swift; sourceTree = "<group>"; };
+		DBB41A7F22D767C700499D6A /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+		DBB41A8222D76A6100499D6A /* InventoryTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InventoryTableViewCell.swift; sourceTree = "<group>"; };
+		DBB41A8322D76A6100499D6A /* InventoryTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = InventoryTableViewCell.xib; sourceTree = "<group>"; };
+		DBB41A8622D76B5700499D6A /* InventoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InventoryViewController.swift; sourceTree = "<group>"; };
+		DBC22CF422D3054200E9C91A /* KitchenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KitchenViewController.swift; sourceTree = "<group>"; };
+		DBC22CF622D305A400E9C91A /* Kitchen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Kitchen.storyboard; sourceTree = "<group>"; };
+		DBC22CFA22D3276D00E9C91A /* KitchenOrderTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KitchenOrderTableViewCell.swift; sourceTree = "<group>"; };
+		DBC22CFB22D3276D00E9C91A /* KitchenOrderTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = KitchenOrderTableViewCell.xib; sourceTree = "<group>"; };
+		DBE16BC522D35F7D0038101E /* KitchenOrderDetailsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KitchenOrderDetailsTableViewCell.swift; sourceTree = "<group>"; };
+		DBE16BC622D35F7D0038101E /* KitchenOrderDetailsTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = KitchenOrderDetailsTableViewCell.xib; sourceTree = "<group>"; };
+		DBE16BC922D3617F0038101E /* KitchenOrderDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KitchenOrderDetailsViewController.swift; sourceTree = "<group>"; };
+		DBF0F4FF22D47D9B002286B9 /* TimerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerViewController.swift; sourceTree = "<group>"; };
+		DBF0F50022D47D9B002286B9 /* TimerViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TimerViewController.xib; sourceTree = "<group>"; };
+		DBF0F50422D60489002286B9 /* Outlet.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Outlet.storyboard; sourceTree = "<group>"; };
+		DBF2527322DC680E00307230 /* CustomerOutletsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomerOutletsViewController.swift; sourceTree = "<group>"; };
+		DBF2527522DC9F8C00307230 /* WholeFoodMenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WholeFoodMenuViewController.swift; sourceTree = "<group>"; };
+		DBF9230F22E0611600BF9A03 /* AccountInformationTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountInformationTableViewCell.swift; sourceTree = "<group>"; };
+		DBF9231022E0611600BF9A03 /* AccountInformationTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AccountInformationTableViewCell.xib; sourceTree = "<group>"; };
+		EDEB797A020E2D3AB5CD7616 /* Pods-Avadansh.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Avadansh.debug.xcconfig"; path = "Target Support Files/Pods-Avadansh/Pods-Avadansh.debug.xcconfig"; sourceTree = "<group>"; };
+		F15980BD22C5F99C003393A2 /* HideKeyboardModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HideKeyboardModel.swift; sourceTree = "<group>"; };
+		F15DBD1C22C48A7D0078C02A /* HomeMenusCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeMenusCollectionViewCell.swift; sourceTree = "<group>"; };
+		F15DBD1D22C48A7D0078C02A /* HomeMenusCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeMenusCollectionViewCell.xib; sourceTree = "<group>"; };
+		F15DBD2022C495DB0078C02A /* HomeFoodCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeFoodCollectionViewCell.swift; sourceTree = "<group>"; };
+		F15DBD2122C495DB0078C02A /* HomeFoodCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeFoodCollectionViewCell.xib; sourceTree = "<group>"; };
+		F15DBD2522C4DD140078C02A /* CollectionTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionTableViewCell.swift; sourceTree = "<group>"; };
+		F15DBD2622C4DD140078C02A /* CollectionTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CollectionTableViewCell.xib; sourceTree = "<group>"; };
+		F178E7BE22C79679008CD4AC /* Last10OrdersTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Last10OrdersTableViewCell.swift; sourceTree = "<group>"; };
+		F178E7BF22C79679008CD4AC /* Last10OrdersTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Last10OrdersTableViewCell.xib; sourceTree = "<group>"; };
+		F178E7C222C79923008CD4AC /* Last10OrdersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Last10OrdersViewController.swift; sourceTree = "<group>"; };
+		F181AFFA22C1F0C200C47CD0 /* Avadansh.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Avadansh.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F181AFFD22C1F0C200C47CD0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F181AFFF22C1F0C200C47CD0 /* LoginController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginController.swift; sourceTree = "<group>"; };
+		F181B00222C1F0C200C47CD0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F181B00722C1F0C600C47CD0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F181B00A22C1F0C600C47CD0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F181B00C22C1F0C600C47CD0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F181B01222C20C3A00C47CD0 /* StructureModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StructureModel.swift; sourceTree = "<group>"; };
+		F181B01722C21E6700C47CD0 /* AlamofireModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlamofireModel.swift; sourceTree = "<group>"; };
+		F181B01922C2208D00C47CD0 /* ProgressHUDModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressHUDModel.swift; sourceTree = "<group>"; };
+		F181B01B22C245B400C47CD0 /* NavigateToVCModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigateToVCModel.swift; sourceTree = "<group>"; };
+		F181B01D22C256B100C47CD0 /* BaseVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseVC.swift; sourceTree = "<group>"; };
+		F1844D8B22C33E51000A5350 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		F1844D8D22C34590000A5350 /* SetCornerRadiusModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetCornerRadiusModel.swift; sourceTree = "<group>"; };
+		F1844D8F22C3529F000A5350 /* TakeOrdersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TakeOrdersViewController.swift; sourceTree = "<group>"; };
+		F1844D9122C3A1B7000A5350 /* CollectionViewReturnModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewReturnModel.swift; sourceTree = "<group>"; };
+		F198D9CC22CB659A00C543E7 /* ConvertStringToJSONModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConvertStringToJSONModel.swift; sourceTree = "<group>"; };
+		F1BA6FE422C9E06700A70A3A /* CheckoutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckoutViewController.swift; sourceTree = "<group>"; };
+		F1BA6FE522C9E06700A70A3A /* CheckoutViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CheckoutViewController.xib; sourceTree = "<group>"; };
+		F1BC2E2C22C9F96B005F689D /* Collection2TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Collection2TableViewCell.swift; sourceTree = "<group>"; };
+		F1BC2E2D22C9F96B005F689D /* Collection2TableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Collection2TableViewCell.xib; sourceTree = "<group>"; };
+		F1D3CAE222CC87D400AF3189 /* OnHoldOrdersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnHoldOrdersViewController.swift; sourceTree = "<group>"; };
+		F1D3CAE522CC895300AF3189 /* OnHoldOrdersListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnHoldOrdersListTableViewCell.swift; sourceTree = "<group>"; };
+		F1D3CAE622CC895300AF3189 /* OnHoldOrdersListTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = OnHoldOrdersListTableViewCell.xib; sourceTree = "<group>"; };
+		F1E112E422C77EB9003619E9 /* OrderListDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderListDetailsViewController.swift; sourceTree = "<group>"; };
+		F1E112E722C78EBA003619E9 /* OrderListDetailsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderListDetailsTableViewCell.swift; sourceTree = "<group>"; };
+		F1E112E822C78EBA003619E9 /* OrderListDetailsTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = OrderListDetailsTableViewCell.xib; sourceTree = "<group>"; };
+		F1FE10BE22C72E930074547B /* OrderOverviewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderOverviewViewController.swift; sourceTree = "<group>"; };
+		F1FE10C122C7334B0074547B /* OrderOverviewTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderOverviewTableViewCell.swift; sourceTree = "<group>"; };
+		F1FE10C222C7334B0074547B /* OrderOverviewTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = OrderOverviewTableViewCell.xib; sourceTree = "<group>"; };
+		F1FE10C622C766ED0074547B /* OrdersListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrdersListTableViewCell.swift; sourceTree = "<group>"; };
+		F1FE10C722C766ED0074547B /* OrdersListTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = OrdersListTableViewCell.xib; sourceTree = "<group>"; };
+		F1FE10CA22C76A890074547B /* OrderListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderListViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F181AFF722C1F0C200C47CD0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBB41A8022D767C800499D6A /* WebKit.framework in Frameworks */,
+				7C5A0B9BDE64477E75622A2C /* Pods_Avadansh.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C217386AE14179E184EEAB75 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DBB41A7F22D767C700499D6A /* WebKit.framework */,
+				9C5C9C5F1E3DA5932FD94928 /* Pods_Avadansh.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DB9FC7CA22D890BF00FEDF23 /* Admin VC */ = {
+			isa = PBXGroup;
+			children = (
+				DB9FC7D422D8A72C00FEDF23 /* AdminHomeViewController.swift */,
+				DB9FC7CB22D890EE00FEDF23 /* OutletsViewController.swift */,
+				DBF2527322DC680E00307230 /* CustomerOutletsViewController.swift */,
+				DB9FC7DC22D8BCDD00FEDF23 /* CustomersViewController.swift */,
+				DBF2527522DC9F8C00307230 /* WholeFoodMenuViewController.swift */,
+			);
+			path = "Admin VC";
+			sourceTree = "<group>";
+		};
+		DB9FC7CF22D895C900FEDF23 /* Outlets List */ = {
+			isa = PBXGroup;
+			children = (
+				DB9FC7D022D895F200FEDF23 /* OutletsListTableViewCell.swift */,
+				DB9FC7D122D895F200FEDF23 /* OutletsListTableViewCell.xib */,
+			);
+			path = "Outlets List";
+			sourceTree = "<group>";
+		};
+		DB9FC7D622D8B7DB00FEDF23 /* Customers List */ = {
+			isa = PBXGroup;
+			children = (
+				DB9FC7D822D8B94700FEDF23 /* RegisteredCustomersTableViewCell.swift */,
+				DB9FC7D922D8B94700FEDF23 /* RegisteredCustomersTableViewCell.xib */,
+			);
+			path = "Customers List";
+			sourceTree = "<group>";
+		};
+		DBB41A6D22D704C000499D6A /* Purchase List */ = {
+			isa = PBXGroup;
+			children = (
+				DBB41A6E22D7063200499D6A /* PurchaseListTableViewCell.swift */,
+				DBB41A6F22D7063200499D6A /* PurchaseListTableViewCell.xib */,
+			);
+			path = "Purchase List";
+			sourceTree = "<group>";
+		};
+		DBB41A7822D7388200499D6A /* Sales */ = {
+			isa = PBXGroup;
+			children = (
+				DBB41A7922D738BD00499D6A /* SalesTableViewCell.swift */,
+				DBB41A7A22D738BD00499D6A /* SalesTableViewCell.xib */,
+			);
+			path = Sales;
+			sourceTree = "<group>";
+		};
+		DBB41A8122D76A3900499D6A /* Inventory */ = {
+			isa = PBXGroup;
+			children = (
+				DBB41A8222D76A6100499D6A /* InventoryTableViewCell.swift */,
+				DBB41A8322D76A6100499D6A /* InventoryTableViewCell.xib */,
+			);
+			path = Inventory;
+			sourceTree = "<group>";
+		};
+		DBC22CED22D3024700E9C91A /* Home VC */ = {
+			isa = PBXGroup;
+			children = (
+				F181B01D22C256B100C47CD0 /* BaseVC.swift */,
+				F1844D8B22C33E51000A5350 /* HomeViewController.swift */,
+			);
+			path = "Home VC";
+			sourceTree = "<group>";
+		};
+		DBC22CEE22D3025000E9C91A /* Login VC */ = {
+			isa = PBXGroup;
+			children = (
+				F181AFFF22C1F0C200C47CD0 /* LoginController.swift */,
+			);
+			path = "Login VC";
+			sourceTree = "<group>";
+		};
+		DBC22CEF22D3025E00E9C91A /* Take Orders VC */ = {
+			isa = PBXGroup;
+			children = (
+				F1844D8F22C3529F000A5350 /* TakeOrdersViewController.swift */,
+				DBC22CF022D302C600E9C91A /* Order Overview VC */,
+			);
+			path = "Take Orders VC";
+			sourceTree = "<group>";
+		};
+		DBC22CF022D302C600E9C91A /* Order Overview VC */ = {
+			isa = PBXGroup;
+			children = (
+				F1FE10BE22C72E930074547B /* OrderOverviewViewController.swift */,
+				F1FE10CA22C76A890074547B /* OrderListViewController.swift */,
+				F1E112E422C77EB9003619E9 /* OrderListDetailsViewController.swift */,
+			);
+			path = "Order Overview VC";
+			sourceTree = "<group>";
+		};
+		DBC22CF122D302E500E9C91A /* Last 100 Orders */ = {
+			isa = PBXGroup;
+			children = (
+				F178E7C222C79923008CD4AC /* Last10OrdersViewController.swift */,
+			);
+			path = "Last 100 Orders";
+			sourceTree = "<group>";
+		};
+		DBC22CF222D3030B00E9C91A /* Orders on Hold VC */ = {
+			isa = PBXGroup;
+			children = (
+				F1D3CAE222CC87D400AF3189 /* OnHoldOrdersViewController.swift */,
+			);
+			path = "Orders on Hold VC";
+			sourceTree = "<group>";
+		};
+		DBC22CF322D3051800E9C91A /* Kitchen VC */ = {
+			isa = PBXGroup;
+			children = (
+				DBC22CF422D3054200E9C91A /* KitchenViewController.swift */,
+				DBE16BC922D3617F0038101E /* KitchenOrderDetailsViewController.swift */,
+			);
+			path = "Kitchen VC";
+			sourceTree = "<group>";
+		};
+		DBC22CF822D326C300E9C91A /* Kitchen Orders */ = {
+			isa = PBXGroup;
+			children = (
+				DBC22CFA22D3276D00E9C91A /* KitchenOrderTableViewCell.swift */,
+				DBC22CFB22D3276D00E9C91A /* KitchenOrderTableViewCell.xib */,
+				DBE16BC522D35F7D0038101E /* KitchenOrderDetailsTableViewCell.swift */,
+				DBE16BC622D35F7D0038101E /* KitchenOrderDetailsTableViewCell.xib */,
+			);
+			path = "Kitchen Orders";
+			sourceTree = "<group>";
+		};
+		DBC22CF922D326DF00E9C91A /* Home  */ = {
+			isa = PBXGroup;
+			children = (
+				F15DBD2522C4DD140078C02A /* CollectionTableViewCell.swift */,
+				F15DBD2622C4DD140078C02A /* CollectionTableViewCell.xib */,
+				F1BC2E2C22C9F96B005F689D /* Collection2TableViewCell.swift */,
+				F1BC2E2D22C9F96B005F689D /* Collection2TableViewCell.xib */,
+			);
+			path = "Home ";
+			sourceTree = "<group>";
+		};
+		DBF0F50322D5FE2F002286B9 /* Outlet VC */ = {
+			isa = PBXGroup;
+			children = (
+				DBB41A7422D716E500499D6A /* OutletHomeViewController.swift */,
+				DBB41A7222D70DF200499D6A /* PurchaseListViewController.swift */,
+				DBB41A7622D7387600499D6A /* SalesViewController.swift */,
+				DBB41A7D22D7561B00499D6A /* SalesInvoiceViewController.swift */,
+				DBB41A8622D76B5700499D6A /* InventoryViewController.swift */,
+				DB93E3F022DF4F9900CDE941 /* AccountDetailsViewController.swift */,
+			);
+			path = "Outlet VC";
+			sourceTree = "<group>";
+		};
+		DBF9230E22E060D200BF9A03 /* Account Info */ = {
+			isa = PBXGroup;
+			children = (
+				DBF9230F22E0611600BF9A03 /* AccountInformationTableViewCell.swift */,
+				DBF9231022E0611600BF9A03 /* AccountInformationTableViewCell.xib */,
+			);
+			path = "Account Info";
+			sourceTree = "<group>";
+		};
+		DD1D3E6030F418C406F3EDC2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EDEB797A020E2D3AB5CD7616 /* Pods-Avadansh.debug.xcconfig */,
+				3916FE17F968EB1803C11F82 /* Pods-Avadansh.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		F15DBD1B22C48A080078C02A /* Collection Cells */ = {
+			isa = PBXGroup;
+			children = (
+				F15DBD1C22C48A7D0078C02A /* HomeMenusCollectionViewCell.swift */,
+				F15DBD1D22C48A7D0078C02A /* HomeMenusCollectionViewCell.xib */,
+				F15DBD2022C495DB0078C02A /* HomeFoodCollectionViewCell.swift */,
+				F15DBD2122C495DB0078C02A /* HomeFoodCollectionViewCell.xib */,
+				DB7845E222DDDDA300E66E56 /* FoodCategoryCollectionViewCell.swift */,
+				DB7845E322DDDDA300E66E56 /* FoodCategoryCollectionViewCell.xib */,
+			);
+			path = "Collection Cells";
+			sourceTree = "<group>";
+		};
+		F15DBD2422C4DCF10078C02A /* TableView Cells */ = {
+			isa = PBXGroup;
+			children = (
+				DBC22CF922D326DF00E9C91A /* Home  */,
+				F1D3CAE422CC890E00AF3189 /* On Hold Orders */,
+				F178E7BD22C79645008CD4AC /* Last 10 Orders */,
+				F1FE10C522C765970074547B /* Order List */,
+				F1FE10C022C733270074547B /* Order Overview */,
+				DBC22CF822D326C300E9C91A /* Kitchen Orders */,
+				DBB41A6D22D704C000499D6A /* Purchase List */,
+				DBB41A7822D7388200499D6A /* Sales */,
+				DBB41A8122D76A3900499D6A /* Inventory */,
+				DB9FC7CF22D895C900FEDF23 /* Outlets List */,
+				DBF9230E22E060D200BF9A03 /* Account Info */,
+				DB9FC7D622D8B7DB00FEDF23 /* Customers List */,
+			);
+			path = "TableView Cells";
+			sourceTree = "<group>";
+		};
+		F178E7BD22C79645008CD4AC /* Last 10 Orders */ = {
+			isa = PBXGroup;
+			children = (
+				F178E7BE22C79679008CD4AC /* Last10OrdersTableViewCell.swift */,
+				F178E7BF22C79679008CD4AC /* Last10OrdersTableViewCell.xib */,
+			);
+			path = "Last 10 Orders";
+			sourceTree = "<group>";
+		};
+		F181AFF122C1F0C200C47CD0 = {
+			isa = PBXGroup;
+			children = (
+				F181AFFC22C1F0C200C47CD0 /* Avadansh */,
+				F181AFFB22C1F0C200C47CD0 /* Products */,
+				DD1D3E6030F418C406F3EDC2 /* Pods */,
+				C217386AE14179E184EEAB75 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F181AFFB22C1F0C200C47CD0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F181AFFA22C1F0C200C47CD0 /* Avadansh.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F181AFFC22C1F0C200C47CD0 /* Avadansh */ = {
+			isa = PBXGroup;
+			children = (
+				F181AFFD22C1F0C200C47CD0 /* AppDelegate.swift */,
+				F181B01422C20C3F00C47CD0 /* Model */,
+				F181B01622C20C6400C47CD0 /* Controller */,
+				F181B01522C20C5C00C47CD0 /* View */,
+				F181B00C22C1F0C600C47CD0 /* Info.plist */,
+			);
+			path = Avadansh;
+			sourceTree = "<group>";
+		};
+		F181B01422C20C3F00C47CD0 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F181B01222C20C3A00C47CD0 /* StructureModel.swift */,
+				F181B01722C21E6700C47CD0 /* AlamofireModel.swift */,
+				F181B01922C2208D00C47CD0 /* ProgressHUDModel.swift */,
+				F181B01B22C245B400C47CD0 /* NavigateToVCModel.swift */,
+				F1844D8D22C34590000A5350 /* SetCornerRadiusModel.swift */,
+				F1844D9122C3A1B7000A5350 /* CollectionViewReturnModel.swift */,
+				F15980BD22C5F99C003393A2 /* HideKeyboardModel.swift */,
+				F198D9CC22CB659A00C543E7 /* ConvertStringToJSONModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F181B01522C20C5C00C47CD0 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F1BA6FE322C9E00600A70A3A /* Popups */,
+				F15DBD2422C4DCF10078C02A /* TableView Cells */,
+				F15DBD1B22C48A080078C02A /* Collection Cells */,
+				F181B00722C1F0C600C47CD0 /* Assets.xcassets */,
+				F181B00122C1F0C200C47CD0 /* Main.storyboard */,
+				F181B00922C1F0C600C47CD0 /* LaunchScreen.storyboard */,
+				DBC22CF622D305A400E9C91A /* Kitchen.storyboard */,
+				DBF0F50422D60489002286B9 /* Outlet.storyboard */,
+				DB9FC7CD22D8910900FEDF23 /* Admin.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F181B01622C20C6400C47CD0 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				DBC22CED22D3024700E9C91A /* Home VC */,
+				DBC22CEE22D3025000E9C91A /* Login VC */,
+				DBC22CEF22D3025E00E9C91A /* Take Orders VC */,
+				DBC22CF122D302E500E9C91A /* Last 100 Orders */,
+				DBC22CF222D3030B00E9C91A /* Orders on Hold VC */,
+				DBC22CF322D3051800E9C91A /* Kitchen VC */,
+				DBF0F50322D5FE2F002286B9 /* Outlet VC */,
+				DB9FC7CA22D890BF00FEDF23 /* Admin VC */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		F1BA6FE322C9E00600A70A3A /* Popups */ = {
+			isa = PBXGroup;
+			children = (
+				F1BA6FE422C9E06700A70A3A /* CheckoutViewController.swift */,
+				F1BA6FE522C9E06700A70A3A /* CheckoutViewController.xib */,
+				DBF0F4FF22D47D9B002286B9 /* TimerViewController.swift */,
+				DBF0F50022D47D9B002286B9 /* TimerViewController.xib */,
+			);
+			path = Popups;
+			sourceTree = "<group>";
+		};
+		F1D3CAE422CC890E00AF3189 /* On Hold Orders */ = {
+			isa = PBXGroup;
+			children = (
+				F1D3CAE522CC895300AF3189 /* OnHoldOrdersListTableViewCell.swift */,
+				F1D3CAE622CC895300AF3189 /* OnHoldOrdersListTableViewCell.xib */,
+			);
+			path = "On Hold Orders";
+			sourceTree = "<group>";
+		};
+		F1E112E622C78E8F003619E9 /* Order List Details */ = {
+			isa = PBXGroup;
+			children = (
+				F1E112E722C78EBA003619E9 /* OrderListDetailsTableViewCell.swift */,
+				F1E112E822C78EBA003619E9 /* OrderListDetailsTableViewCell.xib */,
+			);
+			path = "Order List Details";
+			sourceTree = "<group>";
+		};
+		F1FE10C022C733270074547B /* Order Overview */ = {
+			isa = PBXGroup;
+			children = (
+				F1FE10C122C7334B0074547B /* OrderOverviewTableViewCell.swift */,
+				F1FE10C222C7334B0074547B /* OrderOverviewTableViewCell.xib */,
+			);
+			path = "Order Overview";
+			sourceTree = "<group>";
+		};
+		F1FE10C522C765970074547B /* Order List */ = {
+			isa = PBXGroup;
+			children = (
+				F1FE10C622C766ED0074547B /* OrdersListTableViewCell.swift */,
+				F1FE10C722C766ED0074547B /* OrdersListTableViewCell.xib */,
+				F1E112E622C78E8F003619E9 /* Order List Details */,
+			);
+			path = "Order List";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F181AFF922C1F0C200C47CD0 /* Avadansh */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F181B00F22C1F0C600C47CD0 /* Build configuration list for PBXNativeTarget "Avadansh" */;
+			buildPhases = (
+				9FB4E6B19A7B2D8336F5B7D4 /* [CP] Check Pods Manifest.lock */,
+				F181AFF622C1F0C200C47CD0 /* Sources */,
+				F181AFF722C1F0C200C47CD0 /* Frameworks */,
+				F181AFF822C1F0C200C47CD0 /* Resources */,
+				37893B0BD85BA6453EB46D36 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Avadansh;
+			productName = Avadansh;
+			productReference = F181AFFA22C1F0C200C47CD0 /* Avadansh.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F181AFF222C1F0C200C47CD0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Indian Smart Hub";
+				TargetAttributes = {
+					F181AFF922C1F0C200C47CD0 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = F181AFF522C1F0C200C47CD0 /* Build configuration list for PBXProject "Avadansh" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F181AFF122C1F0C200C47CD0;
+			productRefGroup = F181AFFB22C1F0C200C47CD0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F181AFF922C1F0C200C47CD0 /* Avadansh */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F181AFF822C1F0C200C47CD0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBE16BC822D35F7D0038101E /* KitchenOrderDetailsTableViewCell.xib in Resources */,
+				F1BA6FE722C9E06700A70A3A /* CheckoutViewController.xib in Resources */,
+				DBC22CF722D305A400E9C91A /* Kitchen.storyboard in Resources */,
+				DB9FC7DB22D8B94700FEDF23 /* RegisteredCustomersTableViewCell.xib in Resources */,
+				F15DBD1F22C48A7D0078C02A /* HomeMenusCollectionViewCell.xib in Resources */,
+				F1E112EA22C78EBA003619E9 /* OrderListDetailsTableViewCell.xib in Resources */,
+				F15DBD2822C4DD140078C02A /* CollectionTableViewCell.xib in Resources */,
+				DBB41A7C22D738BD00499D6A /* SalesTableViewCell.xib in Resources */,
+				F178E7C122C79679008CD4AC /* Last10OrdersTableViewCell.xib in Resources */,
+				DB9FC7CE22D8910900FEDF23 /* Admin.storyboard in Resources */,
+				DBC22CFD22D3276D00E9C91A /* KitchenOrderTableViewCell.xib in Resources */,
+				DB7845E522DDDDA300E66E56 /* FoodCategoryCollectionViewCell.xib in Resources */,
+				DB9FC7D322D895F200FEDF23 /* OutletsListTableViewCell.xib in Resources */,
+				DBB41A8522D76A6100499D6A /* InventoryTableViewCell.xib in Resources */,
+				F1FE10C922C766ED0074547B /* OrdersListTableViewCell.xib in Resources */,
+				F1FE10C422C7334B0074547B /* OrderOverviewTableViewCell.xib in Resources */,
+				F1D3CAE822CC895300AF3189 /* OnHoldOrdersListTableViewCell.xib in Resources */,
+				F181B00B22C1F0C600C47CD0 /* LaunchScreen.storyboard in Resources */,
+				DBF9231222E0611600BF9A03 /* AccountInformationTableViewCell.xib in Resources */,
+				F181B00822C1F0C600C47CD0 /* Assets.xcassets in Resources */,
+				DBF0F50222D47D9B002286B9 /* TimerViewController.xib in Resources */,
+				F181B00322C1F0C200C47CD0 /* Main.storyboard in Resources */,
+				DBB41A7122D7063200499D6A /* PurchaseListTableViewCell.xib in Resources */,
+				F1BC2E2F22C9F96B005F689D /* Collection2TableViewCell.xib in Resources */,
+				DBF0F50522D60489002286B9 /* Outlet.storyboard in Resources */,
+				F15DBD2322C495DB0078C02A /* HomeFoodCollectionViewCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		37893B0BD85BA6453EB46D36 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Avadansh/Pods-Avadansh-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Avadansh/Pods-Avadansh-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Avadansh/Pods-Avadansh-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9FB4E6B19A7B2D8336F5B7D4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Avadansh-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F181AFF622C1F0C200C47CD0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1FE10C822C766ED0074547B /* OrdersListTableViewCell.swift in Sources */,
+				F1BC2E2E22C9F96B005F689D /* Collection2TableViewCell.swift in Sources */,
+				F181B01822C21E6700C47CD0 /* AlamofireModel.swift in Sources */,
+				DB93E3F122DF4F9900CDE941 /* AccountDetailsViewController.swift in Sources */,
+				F1D3CAE322CC87D400AF3189 /* OnHoldOrdersViewController.swift in Sources */,
+				F1D3CAE722CC895300AF3189 /* OnHoldOrdersListTableViewCell.swift in Sources */,
+				DBC22CFC22D3276D00E9C91A /* KitchenOrderTableViewCell.swift in Sources */,
+				F1E112E922C78EBA003619E9 /* OrderListDetailsTableViewCell.swift in Sources */,
+				F1FE10C322C7334B0074547B /* OrderOverviewTableViewCell.swift in Sources */,
+				DBB41A8722D76B5700499D6A /* InventoryViewController.swift in Sources */,
+				F1BA6FE622C9E06700A70A3A /* CheckoutViewController.swift in Sources */,
+				DBE16BCA22D3617F0038101E /* KitchenOrderDetailsViewController.swift in Sources */,
+				DBB41A7322D70DF200499D6A /* PurchaseListViewController.swift in Sources */,
+				F181B00022C1F0C200C47CD0 /* LoginController.swift in Sources */,
+				F178E7C022C79679008CD4AC /* Last10OrdersTableViewCell.swift in Sources */,
+				F1E112E522C77EB9003619E9 /* OrderListDetailsViewController.swift in Sources */,
+				DBF2527422DC680E00307230 /* CustomerOutletsViewController.swift in Sources */,
+				F15980BE22C5F99C003393A2 /* HideKeyboardModel.swift in Sources */,
+				F181B01A22C2208D00C47CD0 /* ProgressHUDModel.swift in Sources */,
+				F15DBD2722C4DD140078C02A /* CollectionTableViewCell.swift in Sources */,
+				DBB41A7722D7387600499D6A /* SalesViewController.swift in Sources */,
+				F1844D8C22C33E51000A5350 /* HomeViewController.swift in Sources */,
+				DBE16BC722D35F7D0038101E /* KitchenOrderDetailsTableViewCell.swift in Sources */,
+				F15DBD2222C495DB0078C02A /* HomeFoodCollectionViewCell.swift in Sources */,
+				F1844D9022C3529F000A5350 /* TakeOrdersViewController.swift in Sources */,
+				DBF9231122E0611600BF9A03 /* AccountInformationTableViewCell.swift in Sources */,
+				DBB41A7022D7063200499D6A /* PurchaseListTableViewCell.swift in Sources */,
+				DB7845E422DDDDA300E66E56 /* FoodCategoryCollectionViewCell.swift in Sources */,
+				F198D9CD22CB659A00C543E7 /* ConvertStringToJSONModel.swift in Sources */,
+				DB9FC7CC22D890EE00FEDF23 /* OutletsViewController.swift in Sources */,
+				F1844D8E22C34590000A5350 /* SetCornerRadiusModel.swift in Sources */,
+				F181B01322C20C3A00C47CD0 /* StructureModel.swift in Sources */,
+				DBB41A7B22D738BD00499D6A /* SalesTableViewCell.swift in Sources */,
+				F1FE10BF22C72E930074547B /* OrderOverviewViewController.swift in Sources */,
+				F178E7C322C79923008CD4AC /* Last10OrdersViewController.swift in Sources */,
+				DBC22CF522D3054200E9C91A /* KitchenViewController.swift in Sources */,
+				DB9FC7D222D895F200FEDF23 /* OutletsListTableViewCell.swift in Sources */,
+				F1FE10CB22C76A890074547B /* OrderListViewController.swift in Sources */,
+				DB9FC7DA22D8B94700FEDF23 /* RegisteredCustomersTableViewCell.swift in Sources */,
+				F181B01C22C245B400C47CD0 /* NavigateToVCModel.swift in Sources */,
+				DBF2527622DC9F8C00307230 /* WholeFoodMenuViewController.swift in Sources */,
+				DB9FC7DD22D8BCDD00FEDF23 /* CustomersViewController.swift in Sources */,
+				DBB41A8422D76A6100499D6A /* InventoryTableViewCell.swift in Sources */,
+				F15DBD1E22C48A7D0078C02A /* HomeMenusCollectionViewCell.swift in Sources */,
+				DB9FC7D522D8A72C00FEDF23 /* AdminHomeViewController.swift in Sources */,
+				F1844D9222C3A1B7000A5350 /* CollectionViewReturnModel.swift in Sources */,
+				DBB41A7E22D7561B00499D6A /* SalesInvoiceViewController.swift in Sources */,
+				F181B01E22C256B100C47CD0 /* BaseVC.swift in Sources */,
+				DBF0F50122D47D9B002286B9 /* TimerViewController.swift in Sources */,
+				DBB41A7522D716E500499D6A /* OutletHomeViewController.swift in Sources */,
+				F181AFFE22C1F0C200C47CD0 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F181B00122C1F0C200C47CD0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F181B00222C1F0C200C47CD0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F181B00922C1F0C600C47CD0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F181B00A22C1F0C600C47CD0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F181B00D22C1F0C600C47CD0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F181B00E22C1F0C600C47CD0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F181B01022C1F0C600C47CD0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EDEB797A020E2D3AB5CD7616 /* Pods-Avadansh.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JFVT8QWS9V;
+				INFOPLIST_FILE = Avadansh/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.indiansmarthub.Avadansh;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F181B01122C1F0C600C47CD0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3916FE17F968EB1803C11F82 /* Pods-Avadansh.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JFVT8QWS9V;
+				INFOPLIST_FILE = Avadansh/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.indiansmarthub.Avadansh;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F181AFF522C1F0C200C47CD0 /* Build configuration list for PBXProject "Avadansh" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F181B00D22C1F0C600C47CD0 /* Debug */,
+				F181B00E22C1F0C600C47CD0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F181B00F22C1F0C600C47CD0 /* Build configuration list for PBXNativeTarget "Avadansh" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F181B01022C1F0C600C47CD0 /* Debug */,
+				F181B01122C1F0C600C47CD0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F181AFF222C1F0C200C47CD0 /* Project object */;
+}
